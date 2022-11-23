@@ -1,0 +1,15 @@
+{
+    "name": "test",
+    "version": "0.0.0",
+    "description": "Node.js test #1",
+    "main": "test.js",
+    "private": true,
+    "dependencies": {
+        "bindings": "~1.2.1",
+        "node-addon-api": "^1.0.0"
+    },
+    "scripts": {
+        "test": "node test.js"
+    },
+    "gypfile": true
+}

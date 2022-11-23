@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Проверить наличие пользователя</title>
+</head>
+<body>
+Введите имя пользователя <br>
+<input type="text" id="username_field"> <br>
+<input type="submit" value="Проверить" onclick="check();">
+<script>
+    function check()
+    {
+    var username = document.getElementById("username_field").value
+    console.log(username);
+    window.location = "result?username="+username;
+    }
+</script>
+</body>
+</html>
